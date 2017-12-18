@@ -1,0 +1,25 @@
+Package: SpatialBall
+Type: Package
+Title: Spatial NBA Visualization and Analysis
+Version: 0.1.0
+Authors@R: person("Derek", "Corcoran", email = "derek.corcoran.barrios@gmail.com",
+  role = c("aut", "cre"))
+Maintainer: Derek Corcoran <derek.corcoran.barrios@gmail.com>
+Description: Creates offensive and defensive shot charts for teams, 
+    players and seasons, and more comprehensively for spatial 
+    analysis of NBA data. Includes data from the 2016-17 NBA 
+    season extracted from <http://stats.nba.com>.
+URL: https://derek-corcoran-barrios.github.io/SpatialBall.html
+Depends: R (>= 2.10)
+Imports: dplyr, hexbin, ggplot2, lubridate, RColorBrewer
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2017-12-18 10:13:10 UTC; derek
+Author: Derek Corcoran [aut, cre]
+Repository: CRAN
+Date/Publication: 2017-12-18 12:28:54 UTC
